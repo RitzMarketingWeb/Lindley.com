@@ -1,0 +1,125 @@
+
+.container {
+	display: flex;
+  flex-direction: column;
+	justify-content: space-around;
+}
+
+.about--trey {
+  background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/LindleyPhotos/trey_desk.jpg");
+  background-size: cover;
+  background-position: top;
+  padding: 12rem 10rem;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.about--satie {
+  background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/LindleyPhotos/satie_desk.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 12rem 10rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about--katherine {
+  background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/LindleyPhotos/kat_desk.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 12rem 10rem;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.about-name2 {
+	height: 32.5rem;
+	width: 31.25rem;
+	text-align: center;
+	padding: 1.875rem;
+	padding-bottom: 1.25rem;
+	background: whitesmoke;
+	border: 7px solid rgba(224, 224, 224, .90);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.about-name2 h2 {
+	font-size: 3rem;
+  text-transform: uppercase;
+
+}
+
+.about-name2 h3 {
+	font-size: 2.2rem;
+	margin: .625rem 0 1.25rem 0;
+  text-transform: uppercase;
+}
+
+.about-name2 p {
+	font-size: 1.125rem;
+	line-height: 1.5;
+}
+
+.about-name2 .button {
+	margin-top: 1.25rem;
+	background: #e5e5e5;
+	padding: 1.25rem 3.75rem;
+	width: 15.625rem;
+	border: 3px solid #377BB9;
+	display: flex;
+	justify-content: center;
+	text-transform: uppercase;
+}
+
+.about-name2 .btn {
+	color: #377BB9;
+}
+
+.blue-line {
+  height: 2rem;
+  background-color: #dedede;
+  border: none;
+}
+
+@media (max-width: 1024px) {
+	.about--satie, .about--trey, .about--katherine {
+	  padding: 12rem 8rem
+	}
+}
+
+@media (max-width: 500px) {
+
+	.about-name2 {
+		height: 80%;
+		width: 80%;
+		padding: 1rem;
+
+	}
+
+	.about-name2 h2 {
+		font-size: 2.5rem;
+	}
+
+	.about-name2 h3 {
+		font-size: 2rem;
+		margin: .625rem 0 0 0;
+	}
+
+	.about--satie, .about--trey, .about--katherine {
+		padding: 40rem 4rem 2rem 4rem;
+		justify-content: center;
+	}
+
+	.about--trey {
+		margin-top: 3rem;
+	}
+
+	p {
+	  display: none;
+	}
+
+	.footer-logo {
+		height: 20rem
+	}
