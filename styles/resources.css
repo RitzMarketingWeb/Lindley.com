@@ -62,8 +62,10 @@
 .nc {
 	text-align: center;
 	margin: .5rem 0;
-	background: url('../assets/LindleyPhotos/NC-state.png');
+	background: linear-gradient(to bottom right,rgba(255, 255, 255, 0.9),rgba(254, 254, 254, 0.9)),
+	url('../assets/LindleyPhotos/ncseal.png');
 	background-position: center;
+	background-repeat: no-repeat;
 	background-size: contain;
 	width: 100%;
 	height: auto;
@@ -71,7 +73,8 @@
 }
 
 .federal {
-	background: url('../assets/LindleyPhotos/usmap.png');
+	background: linear-gradient(to bottom right,rgba(255, 255, 255, 0.9),rgba(254, 254, 254, 0.9)),
+	url('../assets/LindleyPhotos/usseal.png');
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;

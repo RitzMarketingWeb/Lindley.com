@@ -48,6 +48,25 @@ dropAbout.addEventListener("mouseout", function(){
   this.style.display = "none";
 }, false);
 
+var areas = document.getElementById("areas"),
+    dropAreas = document.getElementById("dropdown-areas");
+
+areas.addEventListener("mouseover", function(){
+  dropAreas.style.display = "flex";
+}, false);
+
+areas.addEventListener("mouseout", function(){
+  dropAreas.style.display = "none";
+}, false);
+
+dropAreas.addEventListener("mouseover", function(){
+  this.style.display = "flex";
+}, false);
+
+dropAreas.addEventListener("mouseout", function(){
+  this.style.display = "none";
+}, false);
+
 
 var acc = document.getElementsByClassName("accordion");
 var i;

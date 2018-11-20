@@ -9,7 +9,8 @@
   background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/LindleyPhotos/treydogs.JPG");
   background-size: cover;
   background-position: top;
-  padding: 12rem 10rem;
+	background-attachment: fixed;
+  padding: 20rem 10rem;
 	display: flex;
 	justify-content: flex-start;
 }
@@ -17,8 +18,9 @@
 .about--satie {
   background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/LindleyPhotos/satie_desk.jpg");
   background-size: cover;
-  background-position: center;
-  padding: 12rem 10rem;
+  background-position: bottom;
+	background-attachment: fixed;
+  padding: 15rem 10rem;
   display: flex;
   justify-content: flex-end;
 }
@@ -26,8 +28,9 @@
 .about--katherine {
   background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/LindleyPhotos/kat_desk.jpg");
   background-size: cover;
-  background-position: center;
-  padding: 12rem 10rem;
+  background-position: bottom;
+	background-attachment: fixed;
+  padding: 15rem 10rem;
 	display: flex;
 	justify-content: flex-start;
 }
@@ -38,8 +41,8 @@
 	text-align: center;
 	padding: 1.875rem;
 	padding-bottom: 1.25rem;
-	background: whitesmoke;
-	border: 7px solid rgba(224, 224, 224, .90);
+	background: rgba(252, 252, 252, 0.7);
+	border: 7px solid rgba(224, 224, 224, .70);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -64,7 +67,7 @@
 
 .about-name2 .button {
 	margin-top: 1.25rem;
-	background: #e5e5e5;
+	background: rgba(230, 230, 230, 0.72);
 	padding: 1.25rem 3.75rem;
 	width: 15.625rem;
 	border: 3px solid #377BB9;
