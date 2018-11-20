@@ -136,6 +136,7 @@
 	background: url("../assets/LindleyPhotos/capitol-building.jpg");
 	background-position: center;
 	background-size: cover;
+	width: 100vw;
 }
 
 .govmnt h2 {
@@ -177,6 +178,10 @@
 		padding-top: 9rem
 	}
 
+	.nc-fed {
+		flex-direction: column;
+	}
+
 	.court-resources {
 	  width: 100%;
 	}
@@ -194,10 +199,69 @@
 	.govmnt {
 		margin-top: 3rem
 	}
+
+	.nc-fed {
+		flex-direction: column;
+	}
+
+	.bar-assc {
+		width: 100vw;
+	}
+
+	.bar-assc-list {
+		flex-direction: column;
+	}
+
+	.govmnt-sections {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.gov-body, .fed-law, .nc-laws {
+		margin: 2rem 4rem;
+	}
+
+	.fed-law {
+		padding-left: 3rem
+	}
+
+	.nc-laws {
+		padding-left: 8rem
+	}
 }
 
 @media (max-width: 500px) {
 	.top {
 		padding-top: 9rem
 	}
+
+	.nc-fed {
+		flex-direction: column;
+	}
+
+	.bar-assc {
+		width: 100vw;
+	}
+
+	.bar-assc-list {
+		flex-direction: column;
+	}
+
+	.govmnt-sections {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.gov-body, .fed-law, .nc-laws {
+		margin: 2rem 4rem;
+	}
+
+	.fed-law {
+		padding-left: 3rem
+	}
+
+	.nc-laws {
+		padding-left: 8rem
+	}
+
 }

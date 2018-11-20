@@ -1,3 +1,6 @@
+
+// Hamburger Logic ///////////////////////////////////
+
 var menu = document.getElementById("hamburger"),
     x = document.getElementById("nav");
 
@@ -9,6 +12,8 @@ function menuShow() {
   }
 }
 
+
+// Menu Logic //////////////////////////////////////////
 
 var law = document.getElementById("law"),
     drop = document.getElementById("dropdown");
@@ -67,6 +72,8 @@ dropAreas.addEventListener("mouseout", function(){
   this.style.display = "none";
 }, false);
 
+
+// Resources accordion logic /////////////////////////////////////////
 
 var acc = document.getElementsByClassName("accordion");
 var i;
