@@ -645,6 +645,11 @@ footer {
     font-size: 3rem
   }
 
+  .about {
+    height: 70vh;
+    padding: 6rem;
+  }
+
   .about--text h2 {
     margin-bottom: 1.875rem;
     font-size: 3rem
@@ -668,13 +673,18 @@ footer {
     font-size: 13px;
   }
 
+  .about {
+    height: 70vh;
+    padding: 4rem;
+  }
+
   .about--text h2 {
     margin-bottom: 1.5rem;
     font-size: 3rem
   }
 
   .about img {
-    width: 58%;
+    width: 55%;
   }
 
   .resources--btn {
@@ -735,17 +745,43 @@ footer {
   }
 
   .about {
-    padding: 0 4rem;
+    padding: 4rem;
     height: 70vh;
   }
 
+  .about {
+    height: 74vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem;
+  }
+
+  .about--text {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about--text p {
+    font-size: 1.5rem;
+  }
+
   .about--text h2 {
-    margin-bottom: 1rem;
-    font-size: 2.3rem
+    font-size: 5rem
+  }
+
+  .about--btn {
+    font-size: 1.5rem;
   }
 
   .about img {
-    width: 58%;
+    width: 60%;
+    border-top: .75rem solid #ccc;
+    border-bottom: .75rem solid #ccc;
+    border-left: .8125rem solid #bbb;
+    border-right: .8125rem solid #bbb;
   }
 
   .testimonials {
@@ -771,8 +807,76 @@ footer {
     padding: 2.5rem 1rem;
   }
 
+  .hero {
+    background-position: left;
+    align-items: flex-end;
+  }
+
+  .hero--text {
+    height: 20rem;
+    width: 50rem;
+    margin-right: 22%;
+    margin-bottom: 30%;
+    padding: 3rem;
+    background-color: rgba(208, 208, 208, 0.70);
+    border-bottom: .5rem solid #eee;
+    border-top: .5rem solid #eee;
+    border-right: .5rem solid #ddd;
+    border-left: .5rem solid #ddd;
+    color: rgb(60, 60, 60);
+  }
+
+  .hero--text h1 {
+    margin-bottom: 1.5rem;
+  }
+
+  .hero--text p {
+    font-size: 1.5rem
+  }
+
+  .about-drop {
+    right: 49.2rem;
+    top: 100%;
+  }
+
+  .areas-drop {
+    right: 17.8rem;
+    top: 100%;
+  }
+
   .about {
-    height: 50vh
+    height: 74vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem;
+  }
+
+  .about--text {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about--text p {
+    font-size: 1.5rem;
+  }
+
+  .about--text h2 {
+    font-size: 5rem
+  }
+
+  .about--btn {
+    font-size: 1.5rem;
+  }
+
+  .about img {
+    width: 60%;
+    border-top: .75rem solid #ccc;
+    border-bottom: .75rem solid #ccc;
+    border-left: .8125rem solid #bbb;
+    border-right: .8125rem solid #bbb;
   }
 
   .practice--grid-link {
