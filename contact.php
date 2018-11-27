@@ -8,7 +8,7 @@
     $zip = $_POST['zipcode'];
     $message = $_POST['message'];
 
-    $mailTo = "matt@ritzmarketing.com";
+    $mailTo = "kcassidy@lindleylawoffice.com";
     $headers = "From: ".$email;
     $txt = "Message from ".$name.".\n".$email."\n".$phone."\n".$address." ".$zip."\n\n".$message;
 
