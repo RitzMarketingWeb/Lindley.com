@@ -102,29 +102,29 @@
     </div>
     <form id="contact" action="contact.php" method="post">
       <fieldset>
-        <input placeholder="Name" type="text" tabindex="1" required autofocus>
+        <input placeholder="Name" name="name" type="text" tabindex="1" required autofocus>
 
       </fieldset>
       <fieldset>
-        <input placeholder="Email" type="email" tabindex="2" required>
+        <input placeholder="Email" name="email" type="email" tabindex="2" required>
 
       </fieldset>
       <fieldset>
-        <input placeholder="Phone" type="text" tabindex="3" required>
+        <input placeholder="Phone" name="phone" type="text" tabindex="3" required>
 
       </fieldset>
       <div class="split">
         <fieldset>
-          <input placeholder="Address" type="text" tabindex="4" required>
+          <input placeholder="Address" name="address" type="text" tabindex="4" required>
 
         </fieldset>
         <fieldset>
-          <input placeholder="Zip Code" type="number" tabindex="5" required>
+          <input placeholder="Zip Code" name="zipcode" type="number" tabindex="5" required>
 
         </fieldset>
       </div>
       <fieldset>
-        <textarea placeholder="Tell us how we can help you" tabindex="6" id="texta" required></textarea>
+        <textarea placeholder="Tell us how we can help you" name="message" tabindex="6" id="texta" required></textarea>
       </fieldset>
       <fieldset>
         <button name="submit" tabindex="7" type="submit">Submit</button>
