@@ -232,6 +232,9 @@ address {
   height: 95vh;
   width: 100vw;
   background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/LindleyPhotos/IMG_7850.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -322,6 +325,9 @@ address {
   width: 100%;
   background: linear-gradient(to right bottom, rgb(55, 123, 185, .75), rgb(3, 51, 94,.75)),
   url("../assets/LindleyPhotos/charlotteskyline.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   color: white;
 }
@@ -941,17 +947,19 @@ footer {
   }
 
   .hero {
-    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/LindleyPhotos/IMG_7850.jpg");
-    background-position: left;
+    background-image: url("../assets/LindleyPhotos/IMG_7850-small.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     justify-content: center;
   }
 
   .hero--text {
     height: 25rem;
     margin-right: 0;
+    background-color: rgba(208, 208, 208, 0.85);
   }
 
   .hero--text h1 {
@@ -982,6 +990,15 @@ footer {
   .about img {
     width: 95%;
     margin-bottom: 2rem;
+  }
+
+  .practice {
+    background: linear-gradient(to right bottom, rgb(55, 123, 185), rgb(3, 51, 94));
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
   }
 
   .grid-container {
@@ -1059,4 +1076,16 @@ footer {
   html {
     font-size: 6.5px
   }
+
+  .hero {
+    background-image: url("../assets/LindleyPhotos/IMG_7850-small.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+  }
+
+
 }

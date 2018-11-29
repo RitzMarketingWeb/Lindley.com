@@ -4,6 +4,9 @@
 
 .about--satie2 {
   background-image: url("../assets/LindleyPhotos/IMG_7954.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-position: center;
   padding: .75rem 16rem;
@@ -13,6 +16,9 @@
 
 .about--katherine2 {
   background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/LindleyPhotos/kat_desk.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-position: center;
   padding: 12rem 16rem;
@@ -180,6 +186,27 @@
     margin-top: 4rem;
   }
 
+  .about--trey {
+    padding-top: 25rem;
+    background-size: cover;
+    background-position: right top;
+    background-attachment: scroll;
+  }
+
+  .about--satie {
+    padding-top: 25rem;
+    background-size: cover;
+    background-position: right top;
+    background-attachment: scroll;
+  }
+
+  .about--katherine {
+    padding-top: 25rem;
+    background-size: cover;
+    background-position: right top;
+    background-attachment: scroll;
+  }
+
 
   .bio {
     flex-direction: column-reverse;
@@ -227,11 +254,12 @@
 	  padding-right: 0;
 	  display: flex;
 	  flex-direction: row;
-		flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: center;
 	}
 
 	.orgs-icons img {
-	  width: 12rem;
+	  width: 40%;
 		height: 100%;
 	  margin: 2rem;
 	}

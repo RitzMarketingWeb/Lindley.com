@@ -7,6 +7,10 @@
 
 .about--trey {
   background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/LindleyPhotos/treydogs.JPG");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+
   background-size: cover;
   background-position: top;
 	background-attachment: fixed;
@@ -17,6 +21,10 @@
 
 .about--satie {
   background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/LindleyPhotos/satie_desk.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+
   background-size: cover;
   background-position: center;
 	background-attachment: fixed;
@@ -27,6 +35,10 @@
 
 .about--katherine {
   background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/LindleyPhotos/kat_desk.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+
   background-size: cover;
   background-position: center;
 	background-attachment: fixed;
@@ -117,6 +129,11 @@
 
 	.about--trey {
 		margin-top: 3rem;
+		background-position: right;
+	}
+
+	.about--katherine {
+		background-position: right;
 	}
 
 	p {
