@@ -1,0 +1,82 @@
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="lindleylawoffice.com/guardianshiplp" resolutions="1x" timestamp="1523378448540">
+  <folder name="css">
+    <file name="site_global.css" crc="4248316297"/>
+    <file name="thank-you.css" crc="416540602" ref="thank-you"/>
+    <file name="nomq_thank-you.css" crc="3883229502" ref="thank-you"/>
+    <file name="index.css" crc="3816565703" ref="index"/>
+    <file name="nomq_index.css" crc="360011783" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:thank-you"/>
+    <file name="museutils.js" crc="340535759" ref="index:thank-you"/>
+    <file name="whatinput.js" crc="86476730" ref="index:thank-you"/>
+    <file name="museconfig.js" crc="310584261" ref="index:thank-you"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index:thank-you"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index:thank-you"/>
+    <file name="jquery.museresponsive.js" crc="527716135" ref="index:thank-you"/>
+    <file name="require.js" crc="7928878" ref="index:thank-you"/>
+  </folder>
+  <folder name="images">
+    <file name="oldyoung.jpg" crc="281744899" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pasted-svg-117288x1017.svg" crc="4165624349" seo="true" ref="index:thank-you">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="thank-you" alt=""/>
+      <caption webpage="thank-you" alt=""/>
+      <caption webpage="thank-you" alt=""/>
+      <caption webpage="thank-you" alt=""/>
+      <caption webpage="thank-you" alt=""/>
+      <caption webpage="thank-you" alt=""/>
+    </file>
+    <file name="pasted svg 117288x1017_poster_.png" crc="405929948" ref="index"/>
+    <file name="trey4.jpg" crc="4057778543" seo="true" ref="index:thank-you">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="thank-you" alt=""/>
+      <caption webpage="thank-you" alt=""/>
+      <caption webpage="thank-you" alt=""/>
+      <caption webpage="thank-you" alt=""/>
+      <caption webpage="thank-you" alt=""/>
+    </file>
+    <file name="pasted-svg-2317987x288.svg" crc="4252840980" seo="true" ref="index:thank-you">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="thank-you" alt=""/>
+      <caption webpage="thank-you" alt=""/>
+      <caption webpage="thank-you" alt=""/>
+      <caption webpage="thank-you" alt=""/>
+      <caption webpage="thank-you" alt=""/>
+      <caption webpage="thank-you" alt=""/>
+    </file>
+    <file name="pasted svg 2317987x288_poster_.png" crc="4227925066" ref="index"/>
+    <file name="oldyoung-u769-fr.jpg" crc="4241754323" ref="index"/>
+    <file name="oldyoung-u769-fr2.jpg" crc="4215825869" ref="index"/>
+    <file name="oldyoung-u769-fr3.jpg" crc="35907965" ref="index"/>
+    <file name="oldyoung-u769-fr4.jpg" crc="45489212" ref="index"/>
+    <file name="trey4302x306.jpg" crc="4283960619" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index:thank-you"/>
+    <file name="charlotte2.jpg" crc="4003321338" ref="thank-you">
+      <caption webpage="thank-you" alt=""/>
+    </file>
+    <file name="charlotte2-u5451-fr.jpg" crc="4151320525" ref="thank-you"/>
+    <file name="charlotte2-u5451-fr2.jpg" crc="4257337186" ref="thank-you"/>
+    <file name="charlotte2-u5451-fr3.jpg" crc="197655438" ref="thank-you"/>
+  </folder>
+  <file name="index.html" crc="396521219" seo="true" mt="1523378372688" redirect="true"/>
+  <file name="thank-you.html" crc="3765223973" seo="true" mt="1523378418628" redirect="true"/>
+</manifest>

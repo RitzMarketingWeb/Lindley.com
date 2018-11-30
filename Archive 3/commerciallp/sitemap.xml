@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://lindleylawoffice.com/commerciallp/index.html</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://lindleylawoffice.com/commerciallp/images/pasted-svg-117288x1017.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://lindleylawoffice.com/commerciallp/images/trey4.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://lindleylawoffice.com/commerciallp/images/pasted-svg-2317987x288.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://lindleylawoffice.com/commerciallp/images/trey4302x306.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://lindleylawoffice.com/commerciallp/thank-you.html</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://lindleylawoffice.com/commerciallp/images/pasted-svg-117288x1017.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://lindleylawoffice.com/commerciallp/images/trey4.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://lindleylawoffice.com/commerciallp/images/pasted-svg-2317987x288.svg</image:loc>
+    </image:image>
+  </url>
+</urlset>

@@ -1,0 +1,256 @@
+@charset "UTF-8";
+html
+{
+	overlow: hidden;	
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	font-family: 'Roboto', sans-serif;
+	overflow: auto;
+	background-image: url(../images/Charlotte_Skyline_Printing_color_001.jpg); 
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+}
+.content_wrapper {
+	width: 960px;
+	height: 100%;
+	padding: 0px;
+	margin: 0 auto;
+	position: relative;
+	clear: both;
+	margin-top: 35px;
+}
+.testimonial_header_frame
+{
+	position: relative;
+	float: left;
+	height: 100vh;
+	width: 100%;
+	text-align: center;
+	line-height: 50px;
+	font-size: 34px;
+	color: #333;
+	font-weight: 400;
+	z-index: 1;
+}
+.h3_frame
+{
+	margin-top: 20%;	
+}
+.testimony_disclaimer
+{
+	width: 70%;
+	color: #333;
+	clear: both;	
+	margin: 25px auto;
+	padding: 25px;
+	border: 1px solid #333;
+	font-size: 18px;
+}
+#testimonals_frame
+{
+	float: left;
+	clear: both;
+	width: 100%;
+	background-color: rgba(255,255,255, 0.75);
+	z-index: 1;
+}
+div.left_testimonial {
+	width:100%;
+	margin-left: 2%;
+	text-align: left;
+	clear: both;
+	margin-bottom: 50px;
+	float: left;
+	display: table;
+}
+div.left_testimonial .image_wrapper {
+	width: 25%;
+	background-image: url(../images/testimonials_bubble_right.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	display: table-cell;
+	vertical-align: middle;
+}
+div.right_testimonial {
+	margin-right: 2%;
+	width: 100%;
+	float: right;
+	text-align: left;
+	clear: both;
+	margin-bottom: 50px;
+	display: table-cell;
+	height: auto;
+}
+div.right_testimonial .image_wrapper {
+	display: table-cell;
+	height: 100%;
+	vertical-align: middle;
+	position: relative;
+	width: 25%;
+	background-image: url(../images/testimonials_bubble_left.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+div.testimonial_name {
+	clear: both;
+	color: #333;
+	padding: 0px 20px;
+}
+div.testimonial_text {
+	color: #333;
+	width: 65%;
+	font-size: 18px;
+	font-style: italic;	
+	padding: 10px 20px;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+div.testimonial_text p {
+	display: table-cell;
+	width: 100%;
+	height: 100%;
+	
+	text-align: justify;
+    -moz-text-align-last: left;
+    text-align-last: left;
+	margin: 0px;
+}
+div.testimonial_text p:before
+{
+	content: '"';
+}
+div.testimonial_text p:after
+{
+	content: '"';	
+}
+.image_wrapper {
+	text-align: center;
+	padding: 30px 5px;
+	margin: 20px 0px;
+	
+}
+.image_wrapper img
+{
+	width: 100px;
+	border-radius: 50%;	
+}
+@media only screen and (max-width: 959px)
+{
+	.content_wrapper
+	{
+		width: 100%;	
+	}
+	div.left_testimonial .image_wrapper,div.right_testimonial .image_wrapper
+	{
+		float: left; width: 90%;	
+		background: none;
+		margin: 0px;
+		padding: 0px;
+		margin: 20px 0;
+	}
+	
+	div.testimonial_text
+	{
+		clear: both;	
+		float: none;
+		display: block;
+		width: 70%;
+		padding: 0px;
+		margin: 0px auto;
+			}
+	div.left_testimonial div.testimonial_text
+	{
+		float: right; 
+		margin-right: 5%;
+	}
+	div.right_testimonial div.testimonial_text
+	{
+		float: left;
+		margin-left: 5%;
+	}
+	div.left_testimonial, div.right_testimonial
+	{
+		width: 100%;	
+		margin: 0px;
+		float: left;
+		background-color: rgba(255,255,255, 0.5);
+		margin: 20px 0px;
+	}
+}
+
+/* FOOTER */
+.footer_social
+{
+	height: 265px;
+	background-color: #ccc;
+	float: left;
+	clear: both;
+	width: 100%;
+}
+.footer_logo
+{
+	background-image: url(../images/footer_logo.png);
+	height: 96px;
+	width: 149px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	margin-top: 61.5px;
+}
+.footer_social_icons
+{
+	width: 150px;
+	height: 26px;
+	margin: 0 auto;
+}
+.footer_facebook
+{
+	background-image: url(../images/facebook_logo_footer.png);
+	background-repeat: no-repeat;
+	height: 26px;
+	width: 26px;
+	margin: 0 12px;
+	float: left;
+}
+.footer_twitter
+{
+	background-image: url(../images/twitter_logo_footer.png);
+	background-repeat: no-repeat;
+	height: 26px;
+	width: 26px;
+	margin: 0 12px;
+	float: left;
+}
+.footer_linkedin
+{
+	background-image: url(../images/linkedin_logo_footer.png);
+	background-repeat: no-repeat;
+	height: 26px;
+	width: 26px;
+	margin: 0 12px;
+	float: left;
+}
+.site-info
+{
+	height: 57px;
+	line-height: 57px;
+	color: #fff;
+	background-color: #373737;
+	text-align: center;	
+	width: 100%;
+	clear: both;
+}
+.site-info a
+{
+	text-decoration: none;
+	color: #13c7ff;	
+}
+.site-info a:hover
+{
+	color: #13c7ff;	
+}

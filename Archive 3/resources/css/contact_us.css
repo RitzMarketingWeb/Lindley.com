@@ -1,0 +1,191 @@
+@charset "UTF-8";
+body
+{
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	background-size: contain;
+	font-family: 'Roboto', sans-serif;
+	background-image: url(../images/lindley-law-office_complex-00.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+}
+.header_frame
+{
+	position: relative;
+	float: left;
+	
+	height: 100vh;
+	width: 100%;
+	text-align: center;
+	line-height: 50px;
+	font-size: 34px;
+	color: #333;
+	font-weight: 400;
+}
+.h3_frame
+{
+	margin-top: 20%;	
+}
+.inner_wrapper
+{
+	width: 960px;
+	margin: 0 auto;	
+	padding: 25px 0px;
+	font-weight: normal;
+}
+input, select, textarea
+{
+	font-family: 'Roboto', sans-serif;
+	width: 90%;	
+	font-size: 18px;
+	border: none;
+	border-bottom: 1px solid #666;
+	margin: 10px 0px;padding: 5px;
+	font-weight: normal;
+}
+textarea
+{
+	width: 94%;
+}
+input[type="submit"]
+{
+	width:150px;
+	border: 1px solid #333;
+	background-color: #333;
+	color: #fff;
+	background-color: #333;	
+	cursor: pointer;
+	
+}
+.inner_wrapper a
+{
+	text-decoration: none;
+	color: #6abcc8;	
+}
+.inner_wrapper a:hover
+{
+	color: #999;
+}
+
+#content_frame
+{
+	float: left;
+	clear: both;
+	width: 100%;
+	background-color: #fff;
+}
+
+section
+{
+	cursor: pointer;	
+}
+section header
+{
+	padding: 10px 10px;
+	background-color: #6abcc8;
+	width: 100%;	
+	margin: 10px 0px;
+}
+.inner_wrapper section header a
+{
+	color: #fff;	
+}
+.inner_wrapper section header a:hover
+{
+	color: #fff;	
+}
+section article
+{
+	width: 80%;
+	margin: 0 auto;
+	display: none;
+}
+section:target
+{
+	padding-top: 110px;
+}
+section:target article
+{
+	display: block;	
+}
+
+.other_questions{
+	font-size: 21px;
+	background-color: #6abcc8;
+	padding: 40px 0px;	
+	text-align: center;
+	color: #fff;	
+	float: left;
+	width: 100%;
+}
+.other_questions a
+{
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 35px;	
+	margin: 0 10px;
+}
+.other_questions a:hover
+{
+	color: #fff;	
+}
+.ui-accordion .ui-accordion-header
+{
+	font-size: 90%;
+}
+
+.ui-helper-reset
+{
+	font-size: 90%;	
+	border: none;
+	border-radius: 0px;
+}
+.error
+{
+color: #900;
+	clear: both;
+	float: left;	
+}
+input.error, select.error, textarea.error
+{
+	border: 1px solid #900;
+}
+label.error
+{
+	font-size: 12px;	
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default
+{
+	background: #6abcc8;	
+	color: #fff;
+	border: none;
+	border-radius: 0px;
+}
+@media only screen and (max-width: 959px) {
+	table td
+	{
+		float: left;
+		clear: both;
+		width: 100%;
+	}
+	.inner_wrapper
+	{
+		width: 90%;
+	}
+	.other_questions a
+	{
+		clear: both;
+		margin: 0 5%;
+		float: left;
+		padding: 5px 0px;
+		width: 90%;
+	}
+	.header_frame
+{
+	font-size: 150%;
+}
+}

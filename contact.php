@@ -8,10 +8,9 @@
     $zip = $_POST['zipcode'];
     $message = $_POST['message'];
 
-    // $mailTo = "kcassidy@lindleylawoffice.com";
-    $mailTo = "matt@ritzmarketing.com";
+    $mailTo = "kcassidy@lindleylawoffice.com";
     $headers = "From: ".$email;
-    $txt = "The following email is from the website contact page from: " "\n\n".$name."\n\n".$email."\n\n".$phone."\n\n".$address." ".$zip."\n\n".$message;
+    $txt = "The following email is from the website contact page from: ".$name."\n\n".$email."\n\n".$phone."\n\n".$address." ".$zip."\n\n".$message;
 
     mail($mailTo, $headers, $txt);
     header("Location: contact.html?mailsend");

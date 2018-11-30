@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lindley Law</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/testimonials.css">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant:600,700|Lora" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ****************************************** NAVBAR ********************************************* -->
+
+  <nav class="navbar">
+    <a href="index.html"><img class="navbar--img" src="assets/logos/LindleyLaw-Logo.png" alt="Lindley Law Logo"></a>
+    <ul class="navbar--list">
+      <li class="navbar--list-item" id="about"><a href="team.html">About Us</a></li>
+      <div id="dropdown-about" class="about-drop">
+        <a class="inv" href="about-trey.html">Trey</a>
+        <a href="about-satie.html">Satie</a>
+        <a href="about-katherine.html">Katherine</a>
+      </div>
+      <li class="navbar--list-item" id="areas"><a href="#practice">Practice Areas</a></li>
+      <div id="dropdown-areas" class="areas-drop">
+        <a class="inv" href="complex.html">Commercial/Complex Business Litigation</a>
+        <a href="trust.html">Trust and Estate Litigation</a>
+        <a href="condemn.html">Condemnation and Eminent Domain</a>
+        <a href="appellate.html">Appellate Law</a>
+        <a href="guardian.html">Guardianships and Incompetency Proceedings</a>
+        <a href="consumer.html">Creditor and Consumer Rights Litigation</a>
+        <a href="employ.html">Employment Law</a>
+        <a href="landlord.html">Landlord/Tenant Disputes</a>
+        <a href="malp.html">Professional Malpractice</a>
+        <a href="construct.html">Construction Litigation</a>
+        <a href="partition.html">Partition Proceedings</a>
+      </div>
+      <li class="navbar--list-item"><a href="testimonials.html">Testimonials</a></li>
+      <li class="navbar--list-item"><a href="http://lindleylawoffice.com/blog/">Blog</a></li>
+      <li class="navbar--list-item"><a href="resources.html">Resources</a></li>
+      <li class="navbar--list-item"><a href="contact.html">Contact</a></li>
+      <li class="navbar--list-item" id="law"><a href="#">Law Pay</a></li>
+    </ul>
+    <div id="dropdown" class="law-drop">
+      <a class="inv" href="https://secure.lawpay.com/pages/lindleylaw/consultation">Invoice/Consultation</a>
+      <a href="https://secure.lawpay.com/pages/lindleylaw/trust">Retainer</a>
+    </div>
+  </nav>
+
+  <nav class="navbar-mobile">
+    <a href="index.html"><img class="navbar--logo-mobile" src="assets/logos/LindleyLaw-Logo-H.png" alt="Lindley Law Logo"></a>
+    <img onclick="menuShow()" id="hamburger" class="hamburger"  src="assets/Icons/bars.svg" alt="">
+  </nav>
+
+  <div id="nav" class="navbar--list-mobile">
+    <a href="team.html">About Us</a>
+    <a href="#practice">Practice Areas</a>
+    <a href="testimonials.html">Testimonials</a>
+    <a href="http://lindleylawoffice.com/blog/">Blog</a>
+    <a href="resources.html">Resources</a>
+    <a href="contact.html">Contact</a>
+    <a href="#" class="mobile-law">Law Pay</a>
+    <hr>
+    <a class="inv" href="https://secure.lawpay.com/pages/lindleylaw/consultation">Invoice/Consultation</a>
+    <a href="https://secure.lawpay.com/pages/lindleylaw/trust">Retainer</a>
+  </div>
+
+
+  <div class="float-phone">
+    <a href="tel:7044571010"><svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g opacity="0.9" filter="url(#filter0_d)">
+    <circle cx="26.5" cy="26.5" r="26.5" fill="#F0F0F0"/>
+    <path d="M33.0732 9.6162C40.3185 22.1643 36.0038 38.2672 23.4551 45.5115C23.333 45.582 23.1859 45.6007 23.0496 45.5642L16.2424 43.7402C15.6703 43.5869 15.3308 42.999 15.4841 42.4269L17.9545 33.2075C18.1077 32.6354 18.6957 32.296 19.2678 32.4493L25.5571 34.1345L29.2051 20.52L22.9158 18.8348C22.3437 18.6815 22.0042 18.0936 22.1575 17.5215L24.6278 8.30207C24.7811 7.72998 25.3691 7.39054 25.9412 7.54383L32.7484 9.36783C32.8846 9.40434 33.0027 9.49407 33.0732 9.6162Z" fill="#377BB9"/>
+    </g>
+    <defs>
+    <filter id="filter0_d" x="0" y="0" width="61" height="61" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+    <feOffset dx="4" dy="4"/>
+    <feGaussianBlur stdDeviation="2"/>
+    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+    </defs>
+    </svg></a>
+  </div>
+
+  <!-- ******************************************** HERO ********************************************* -->
+  <div class="gutter">
+    <section class="hero">
+      <div class="hero--text">
+        <h1>Discover Lindley Law</h1>
+        <p>Lindley Law pursues justice for its clients by solving problems and creating value in cost-effective, unexpected ways. Our formula is simple: provide the highest quality, integrity-driven representation with an uncompromising devotion to holding clients’ needs paramount.</p>
+      </div>
+      <div class="hero--arrow">
+        <img src="" alt="">
+      </div>
+    </section>
+
+    <!-- ****************************************** ABOUT ********************************************* -->
+
+    <section class="about">
+      <div class="about--text">
+        <h2 class="about--text-heading">About Us</h2>
+        <p class="about--text-body">Lindley Law is a boutique civil litigation law firm.  Our foreign and domestic clients include  individuals and multi-million dollar corporations.<br><br>
+        </p>
+        <p class="about--text-body">As a cloud-based technology firm, Lindley Law can operate virtually anywhere. However, 326 W. 10th Street, Charlotte NC is where we call home.  Nestled in the historic district of uptown Charlotte’s Fourth Ward, our office is a converted home, built in 1905, which retains much of its original charm and finishes.<br><br>
+        </p>
+        <p class="about--text-body">If you're ever in our neighborhood, please drop in and say hello. In the meantime, click the button below to learn more about our team.</p>
+        <a href="team.html" class="about--btn">Meet Our Team</a>
+      </div>
+      <img src="assets/LindleyPhotos/IMG_7878.jpg" alt="">
+    </section>
+
+    <!-- **************************************** PRACTICE ********************************************* -->
+
+    <section class="practice" id="practice">
+      <div class="practice--text">
+        <h2 class="practice--text-heading">Practice Areas</h2>
+      </div>
+      <div class="grid-container">
+        <a href="complex.html" class="grid-a">
+          <div class="practice--grid-link">
+            <img src="assets/Icons/CommercLit.png" alt="Complex/Commercial Icon">
+            <p>Commercial/Complex Business Litigation</p>
+          </div>
+        </a>
+        <a href="trust.html" class="grid-a">
+          <div class="practice--grid-link">
+            <img src="assets/Icons/TrustEstate.png" alt="Trust and Estate Icon">
+            <p>Trust and Estate Litigation</p>
+          </div>
+        </a>
+        <a href="condemn.html" class="grid-a">
+          <div class="practice--grid-link">
+            <img src="assets/Icons/CondemnEmm.png" alt="Condemnation and Eminent Domain Icon">
+            <p>Condemnation and Eminent Domain</p>
+          </div>
+        </a>
+        <a href="appellate.html" class="grid-a">
+          <div class="practice--grid-link">
+            <img src="assets/Icons/Appellate.png" alt="Appellate Icon">
+            <p>Appellate Law</p>
+          </div>
+        </a>
+        <a href="guardian.html" class="grid-a">
+          <div class="practice--grid-link">
+            <img src="assets/Icons/Guardianship.png" alt="Guardianship Icon">
+            <p>Guardianships and Incompetency Proceedings</p>
+          </div>
+        </a>
+        <a href="consumer.html" class="grid-a">
+          <div class="practice--grid-link">
+            <img src="assets/Icons/Credit:Consu.png" alt="Credit/Consumer Icon">
+            <p>Creditor and Consumer Rights Litigation</p>
+          </div>
+        </a>
+        <a href="employ.html" class="grid-a">
+          <div class="practice--grid-link">
+            <img src="assets/Icons/Employ.png" alt="Employment Icon">
+            <p>Employment Law</p>
+          </div>
+        </a>
+        <a href="landlord.html" class="grid-a">
+          <div class="practice--grid-link">
+            <img src="assets/Icons/Landlord.png" alt="Landlord Icon">
+            <p>Landlord/Tenant Disputes</p>
+          </div>
+        </a>
+        <a href="malp.html" class="grid-a">
+          <div class="practice--grid-link">
+            <img src="assets/Icons/ProMalp.png" alt="Malpractice Icon">
+            <p>Professional Malpractice</p>
+          </div>
+        </a>
+        <a href="construct.html" class="grid-a">
+          <div class="practice--grid-link">
+            <img src="assets/Icons/Construction.png" alt="Construction Icon">
+            <p>Construction Litigation</p>
+          </div>
+        </a>
+        <div id="spacer" class="practice--grid-link">
+          <!-- spacer div -->
+        </div>
+        <a href="partition.html" class="grid-a">
+          <div class="practice--grid-link">
+            <img src="assets/Icons/Partition.png" alt="Partition Icon">
+            <p>Partition Proceedings</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- *************************************** TESTIMONIALS ******************************************* -->
+
+    <section class="testimonials-main">
+      <div class="testimonials--heading">
+        <h2>Testimonials</h2>
+      </div>
+
+      <div class="boxy">
+        <div class="test">
+          <h4 class="name">Richard A. Rinaldi</h4>
+          <h5 class="comp">President, ORA Consulting</h5>
+          <p>I had the good fortune of working with Trey as a litigator on a protracted lawsuit. During, often trying periods, I found Trey to have excellent verbal skills and the ability to reduce complex legal issues into basic, understandable terms. Watching him at trial virtually destruct an opponent’s credibility was like watching sheer artistry at work. Through his efforts we won a significant financial award.</p>
+        </div>
+
+        <div class="test2">
+          <div class="img">
+            <img src="https://authoritypresswire.com/wp-content/uploads/2015/02/Chris-Bonnefoux-Photo-sq1.jpg" alt="">
+          </div>
+          <div class="review">
+            <h4 class="name2">Chris "Mr. Uptown" Bonnefoux</h4>
+            <h5 class="comp2">Broker/Owner at RE/MAX Exclusive</h5>
+            <p class="p">I hired Trey Lindley to represent me in a case and I was extremely pleased with the outcome. Not only did he deliver the results I was looking for, but he was also very attentive to my needs, easily reachable (with fast response time), efficient, and very clear explaining all the details throughout the case—all of which was very helpful to me. I would highly recommend him to anyone.</p>
+          </div>
+        </div>
+      </div>
+      <div class="div-test-btn">
+        <a href="testimonials.html" class="btn-test btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- ************************************* RESOURCES ************************************** -->
+
+    <section class="resources">
+      <div class="resources--heading">
+        <h2>Resources</h2>
+      </div>
+      <div class="resources--btn">
+        <div class="court-links">
+
+            <a href="resources.html" class="button btn">Court Links</a>
+
+        </div>
+        <div class="court-links">
+
+            <a href="resources.html" class="button btn middle-btn">Bar Organizations & Associations</a>
+
+        </div>
+        <div class="court-links">
+
+            <a href="resources.html" class="button btn">Government</a>
+
+        </div>
+      </div>
+    </section>
+    <!-- ****************************************** FOOTER ********************************************* -->
+    <footer>
+      <div class="footer-left">
+        <img class="logo" src="assets/logos/LindleyLaw-Logo.png" alt="Lindley Law Logo">
+        <div class="icons">
+          <a href="https://www.facebook.com/LindleyLawOffice"><img src="assets/Icons/facebook.svg" alt="facebook"></a>
+          <a href="https://twitter.com/LindleyLaw"><img src="assets/Icons/twitter.svg" alt="twitter"></a>
+          <a href="https://www.linkedin.com/company/lindley-law-pllc"><img src="assets/Icons/linkedin-in.svg" alt="linkedin"></a>
+          <a href="https://instagram.com/tr3ylindley/"><img src="assets/Icons/instagram.svg" alt="instagram"></a>
+        </div>
+      </div>
+      <div class="footer-right">
+        <h2>Contact Us</h2>
+        <div class="info">
+          <div class="ph-off">
+            <div class="ph">
+              <h3>PHONE</h3>
+              <a href="tel:7044571010">704-457-1010</a>
+            </div>
+            <div class="office">
+              <h3>OFFICE HOURS</h3>
+              <p>Monday - Friday: 8am to 6pm</p>
+              <p>Saturday and Sunday: By appointment only</p>
+            </div>
+          </div>
+          <div class="st-mail">
+            <div class="street">
+              <h3>STREET ADDRESS</h3>
+              <address>326 W. 10th Street <br>Charlotte, NC 28202</address>
+            </div>
+            <div class="mail">
+              <h3>MAILING ADDRESS</h3>
+              <address>P.O. Box 30305 <br>Charlotte, NC 28230</address>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="sub-footer">
+      <p>&copy; Lindley Law, Pllc. All rights reserved</p>
+      <p>Web Design by <a href="https://ritzmarketing.com/">ritz Marketing</a></p>
+    </div>
+
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

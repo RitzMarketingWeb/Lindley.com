@@ -1,0 +1,598 @@
+@charset "UTF-8";
+#skrollr-body {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	
+}
+#loading
+{
+	z-index: 99999999;
+	text-align: center;
+	padding-top: 12%;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	display: block;	
+	font-size: 200%;
+	color: #333;
+	background: #1a1a1a;
+}
+#skrollr-body > div {
+	overflow: hidden;
+	position: absolute;
+}
+/*---to center horizontally and vertically the elements that have position: absolute----*/
+.centered {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0;
+}
+#home {
+	background-color: #fff;
+	z-index: 0;
+	background-image: url(http://www.lindleylawoffice.com/resources/images/about/charlotte-courthouse-no-filter-2.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-clip: content-box;
+}
+#about_us {
+	z-index: 10;
+	top: 100%;
+	background-image: url(../images/john-c-lindley-III-arms-crossed.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-clip: content-box;
+	margin: 0;
+}
+#practice_areas_header {
+	z-index: 20;
+	background-image: url(http://www.lindleylawoffice.com/resources/images/about/practice-areas-overlay.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-clip: content-box;
+}
+#practice_areas {
+	z-index: 30;
+	background: #6ABCC8;
+}
+#testimonials {
+	z-index: 50;
+	background-image: url(../images/Charlotte_Skyline_Printing_color_002.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+#resources {
+	z-index: 40;
+	overflow: hidden;
+	background: #000;
+}
+#contact_us {
+	z-index: 60;
+	background-image: url(../images/lindley-law-office_contact-us-00.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.content_wrapper {
+	width: 960px;
+	height: 100%;
+	padding: 0px;
+	margin: 0 auto;
+	position: relative;
+	clear: both;
+	margin-top: 35px;
+}
+.one_third {
+	width: 30%;
+	margin: 0 1.6%;
+	float: left;
+	text-align: center;
+	margin-top: 12.5%;
+}
+.practice_area_item {
+	width: 440px;
+	height: 60px;
+	margin: 10px auto;
+	text-align: left;
+	font-weight: 100;
+	line-height: 60px;
+	clear: both;
+	cursor: pointer;
+
+}
+.practice_area_item:hover {
+	font-weight: normal;
+}
+.practice_area_item:hover img {
+	width: 75px;
+	height: auto;
+	-webkit-transition: 1s width;
+	transition: 1s width;
+}
+.practice_area_overflown {
+	line-height: 42px;
+}
+.scroll_panel {
+	background-color: rgba(255,255,255,0.5);
+	height: 100%;
+	width: 33%;
+	padding-top: 101px;
+	color: #000;
+}
+.right_box {
+	height: 100%;
+	width: 33%;
+	padding-top: 101px;
+	right: 0px;
+}
+.left_box {
+	height: 100%;
+	width: 33%;
+	padding-top: 101px;
+}
+.white_button {
+	text-align: center;
+	height: 75px;
+	width: 100%;
+	margin: 0 auto;
+	line-height: 75px;
+	cursor: pointer;
+	background-color: #fff;
+	color: #707070;
+	border: 1px solid #ececec;
+	font-weight: 100;
+	font-size: 100%;
+}
+.black_button {
+	text-align: center;
+	height: 50px;
+	width: 47%;
+	float: left;
+	margin-right: 3%;
+	line-height: 50px;
+	cursor: pointer;
+	background-color: #000;
+	color: #fff;
+	font-weight: 400;
+	font-size: 150%;
+}
+.border_button {
+	text-align: center;
+	height: 50px;
+	line-height: 25px;
+	width: 80%;
+	border: 2px solid #fff;
+	margin: 0 auto;
+	line-height: 50px;
+	cursor: pointer;
+	font-size: 100%;
+}
+.border_button:hover {
+	background-color: rgba(255,255,255, .5);
+}
+.header_large_center {
+	font-family: 'Roboto Slab', serif;
+	font-size: 80pt;
+	margin-top: 20%;
+	float: left;
+	width: 100%;
+	text-align: center;
+	color: #fff
+}
+.subheader_large_center {
+	font-size: 47pt;
+	float: left;
+	clear: both;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-family: 'Roboto Slab', serif;
+	
+}
+.content_area {
+	height: 80%;
+	width: 80%;
+	margin-top: 7%;
+}
+/* VIDEO */
+video {
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	top: 0px;
+	left: 0px;
+	z-index: -100;
+	background-color: #000;
+	background: url() no-repeat;
+	background-size: cover;
+	background-position: center top;
+	-webkit-transition: 1s opacity;
+	transition: 1s opacity;
+}
+/* SLIDE 1 - INTRO */
+#home .one_third {
+	margin-top: 10%;
+	margin-right: 10%;
+	float: right;
+}
+#home #home_section
+{
+	margin-top: 35px;	
+}
+#lindley_law_logo {
+	width: 100%;
+	max-width: 363px;
+}
+/* SLIDE 2 - ABOUT */
+#about_us .border_button {
+	width: 100%;
+	margin-top: 5%;
+	border-color: #fff;
+	font-size: 90%;
+}
+#about_us h1 {
+	font-family: 'Roboto Slab', serif;
+}
+#about_us .one_third {
+	width: 35%;
+}
+/* SLIDE 3 - PRACTICE AREAS INTO PANEL */
+/* SLIDE 4 - PRACTICE AREAS */
+#practice_areas .subheader_large_center {
+	margin-top: 112px;
+	font-size: 24pt;
+}
+#practice_areas .one_third {
+	margin: 0%;
+	width: 50%;
+	margin: 10px auto;
+}
+/* SLIDE 5 - RESOURCES */
+#slide5 .header_large_center {
+	margin-top: 20%;
+	background-color: #000;
+}
+#slide5 .one_third {
+	width: 25%;
+	margin: 4%;
+}
+/* TESTIMONIALS */
+#testimonials .subheader_large_center
+{
+	margin-top: 120px;
+	color: #333;
+	font-family: 'Roboto Slab', serif;
+}
+div.left_testimonial {
+	text-align: left;
+	clear: both;
+	margin-bottom: 20px;
+	margin: 0 auto;
+	float: none;
+	width: 600px;
+	height: auto;
+}
+div.left_testimonial .image_wrapper {
+	vertical-align: middle;
+	position: relative;
+	width: 100%;
+	float: left;
+}
+div.testimonial_name {
+	clear: both;
+	color: #333;
+}
+div.testimonial_text {
+	color: #333;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
+div.testimonial_text p {
+	padding: 40px 0px;
+	margin: 0px auto;
+	width: 100%;
+	text-align: justify;
+	-moz-text-align-last: left;
+	text-align-last: left;
+}
+#testimonials .border_button {
+	width: 30%;
+	font-size: 100%;
+	border-color: #333;
+	clear: both;
+	color: #333;
+	font-size: 70%;
+}
+.image_wrapper {
+	text-align: center;
+	bottom: 0px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	background-image: url(../images/testimonials_bubble.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+.image_wrapper img {
+	width: 100px;
+	border-radius: 50%;
+}
+
+#contact_us .header_large_center
+{
+margin-top: 120px; color: #000;	
+}
+
+#contact_us #office_hours
+{
+margin: 20px auto; width: 100%; clear: both; text-align: center;font-weight: 300;	
+}
+
+
+footer
+{
+	position: absolute;	
+}
+#menu {
+	margin: 0px;
+	padding: 0px;
+	margin-top: 0px;
+	width: 100%;
+	top: 100%;
+	position: absolute;
+	height: 100px;
+	background: rgba(255,255,255,.91);
+	clear: both;
+	border-bottom: 1px solid #ccc;
+	-webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.5);
+	box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.5);
+	z-index: 9000;
+}
+@media (max-height: 660px)
+{
+	#skrollr-body > div {
+	position: relative;
+}
+	#skrollr-body, #home, #about_us, #practice_areas_header, #practice_areas, #testimonials, #resources, #contact_us, footer {
+	position: relative;
+	width: 100%;
+	height: auto;
+	float: left;
+	clear: both;
+	z-index: 0;
+}
+#menu {
+	margin: 0px;
+	padding: 0px;
+	margin-top: 0px;
+	width: 100%;
+	top: auto;
+	position: relative;
+	height: auto;
+}
+#practice_areas_header .content_wrapper
+{
+	margin: 0px auto;	
+}
+#practice_areas_header .header_large_center
+{
+	margin-top: 35px;
+}
+
+#home .one_third, #about_us .one_third, #practice_areas_header .subheader_large_center, #testimonials .content_wrapper, #resources .one_third, #contact_us .black_buttonx
+{
+	padding-bottom: 35px;	
+	color: #222222;
+}
+
+#contact_us .header_large_center
+{
+	margin-top: 25px;	
+}
+}
+
+
+@media (max-width: 1024px) 
+{
+	#practice_areas_header
+	{
+		min-height: 200px;	
+	}
+	
+	#home .one_third, #about_us .one_third, #practice_areas_header .subheader_large_center, #testimonials .content_wrapper, #resources .one_third, #contact_us .black_buttonx
+{
+	padding-bottom: 0px;	
+}
+#skrollr-body > div {
+	position: relative;
+}
+#skrollr-body, #home, #about_us, #practice_areas_header, #practice_areas, #testimonials, #resources, #contact_us, footer {
+	position: relative;
+	width: 100%;
+	height: auto;
+	float: left;
+	clear: both;
+	z-index: 0;
+	background-attachment: local;
+}
+#home #top_bar
+{
+	float: left;	
+	position: relative;
+	top: auto;
+}
+#home #home_section
+{
+	margin-top: 0px;	
+}
+.content_wrapper {
+	float: none;
+	margin: 0px;
+	height: auto;
+	width: 90%;
+	padding: 0px 0px;
+	margin: 0 auto;
+}
+#home .one_third {
+	width: 100%;
+	float: left;
+	clear: both;
+	margin: 0px;
+	padding: 25px 0px;
+}
+#home .one_third img {
+	width: 100%;
+	max-width: 363px;
+}
+#home {
+    background-image: url(http://www.lindleylawoffice.com/resources/images/charlotte-courthouse-dark-overlay-for-mobile.png);
+}
+#about_us
+{
+	top: auto;	
+	background-position: left top;
+}
+#about_us .border_button
+{
+	font-size: 80%;	
+	width: 90%;
+}
+#about_us .border_button img
+{
+		
+}
+#about_us .one_third
+{
+	width: 100%;
+	margin: 0px;	
+	padding: 25px 0px;
+}
+
+
+#practice_areas_header .header_large_center
+{
+	font-size: 200%;
+	margin-top: 12%;
+}
+#practice_areas_header .subheader_large_center
+{
+	font-size: 120%;
+}
+
+#practice_areas .subheader_large_center
+{
+	margin-top: 0px;
+	font-size: 120%;
+}
+#practice_areas .one_third
+{
+	width: 100%;
+	float: left;
+	clear: both;
+	font-size: 72%;	
+}
+#practice_areas .content_wrapper
+{
+	width: 100%;
+	float: left;	
+}
+.practice_area_item:hover img
+{
+	transition: none;
+	width: 50px;
+}
+#testimonials
+{
+	background-position: center center;	
+	background-size: cover;
+}
+#testimonials .content_wrapper
+{
+	padding: 25px 0px;	
+}
+#testimonials .border_button img
+{
+	display: none;	
+}
+#testimonials .subheader_large_center
+{
+	font-size: 200%;	
+	margin-top: 0px;
+}
+#testimonials .left_testimonial
+{
+	width: 100%;	
+}
+#testimonials .border_button
+{
+	width: 90%;	
+}
+#resources
+{
+	overflow: hidden;	
+}
+#resources .content_wrapper
+{
+	padding: 25px 0px;
+}	
+#resources .header_large_center
+{
+	font-size: 200%;
+	margin-top: 0px;
+}
+#resources bgvid
+{
+	width: 100%;
+}
+#resources .one_third
+{
+	width: 90%;
+	padding: 0px;
+	margin: 0 auto;
+	float: none;	
+	clear: both;
+}
+#contact_us .header_large_center
+{
+	font-size: 200%;
+	margin-top: 0px;	
+}
+#contact_us .black_button
+{
+	width: 100%;
+	clear: both;	
+	margin-bottom: 10px;
+	font-size: 70%;
+}
+.centered
+{
+	top: auto;
+	left: auto;
+	right: auto;
+	bottom: auto;
+	margin: 0px;	
+}
+#menu {
+	margin: 0px;
+	padding: 0px;
+	margin-top: 0px;
+	width: 100%;
+	top: auto;
+	position: relative;
+	height: auto;
+}
+footer
+{
+	position: relative;	
+}
+}
+

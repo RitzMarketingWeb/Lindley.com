@@ -1,0 +1,257 @@
+.about-name2 {
+  height: 26.25rem;
+}
+
+.about--satie2 {
+  background-image: url("../assets/LindleyPhotos/IMG_7954.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: .75rem 16rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about--katherine2 {
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/LindleyPhotos/kat_desk.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 12rem 16rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.bio {
+  display: flex;
+  margin: 5rem;
+}
+
+.bio-honors {
+  width: 40%;
+  padding-right: 2rem;
+}
+
+.bio-honors img {
+  width: 85%;
+}
+
+.bio-honors h3 {
+  margin: 1rem 0 .5rem 0;
+}
+
+.bio-honors ul {
+  list-style: inside;
+}
+
+.bio-honors li {
+  font-size: 1.2rem;
+  line-height: 1.3;
+}
+
+.bio-desc {
+  width: 60%;
+  padding-left: 1.2rem;
+}
+
+.bio-desc p {
+  line-height: 1.5;
+}
+
+.orgs {
+  display: flex;
+  background: linear-gradient(to right bottom,
+    rgb(55, 123, 185),
+    rgb(3, 51, 94));
+  background-size: cover;
+  color: white;
+  padding: 5rem 8rem;
+}
+
+.orgs-icons {
+  border-right: 3px solid #eee;
+  padding-right: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.orgs-icons img {
+  width: 16rem;
+  margin: 1.7rem;
+}
+
+.orgs-content {
+  margin-left: 6rem;
+}
+
+.orgs-content h3 {
+  margin: 1rem 0 .5rem 0;
+  font-size: 2rem;
+}
+
+.orgs-content ul {
+  margin: 0 0 3rem 1.5rem;
+}
+
+.orgs-content li {
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+
+.pub {
+  margin: 4rem;
+}
+
+.pub-heading {
+  text-align: center;
+  margin: 2rem 0 6rem 0;
+}
+
+.pub-info {
+  display: flex;
+  border-bottom: .625rem solid #6e6e6e;
+  margin-bottom: 6rem;
+}
+
+.pub-date {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.pub-article {
+  width: 60%;
+
+}
+
+.pub-article a {
+  color: rgb(76, 112, 175);
+}
+
+.pub-article h3, h4 {
+  text-align: center;
+}
+
+.pub-article h3 {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+
+.pub-article h4 {
+  font-size: 1.5rem;
+  margin-bottom: .625rem;
+}
+
+.pub-article p {
+  line-height: 1.7;
+  font-size: 1.2rem;
+}
+
+.pub-date h3 {
+  font-size: 1.7rem;
+  margin-bottom: 5px;
+  font-style: italic;
+  color: rgb(14, 81, 170);
+}
+
+.pub-date p {
+  margin-bottom: .625rem;
+}
+
+.pub-info img {
+  width: 80%;
+}
+
+@media (max-width: 500px) {
+  p {
+    display: flex;
+  }
+
+  .about-name2 {
+    display: none;
+  }
+
+  .about--satie, .about--trey, .about--katherine {
+    padding: 20rem 4rem 2rem 4rem;
+    justify-content: center;
+  }
+
+  .about--trey, .about--katherine, .about--satie {
+    margin-top: 4rem;
+  }
+
+
+  .bio {
+    flex-direction: column-reverse;
+		margin: 3rem;
+  }
+
+  .bio-desc {
+    width: 100%;
+    height: 60vh;
+    overflow: scroll;
+    margin-bottom: 2rem;
+		padding-bottom: 2rem;
+		-webkit-box-shadow: inset 11px -97px 105px -71px rgba(209,209,209,1);
+		-moz-box-shadow: inset 11px -97px 105px -71px rgba(209,209,209,1);
+		box-shadow: inset 11px -97px 105px -71px rgba(209,209,209,1);
+  }
+
+	.bio-desc p {
+		font-size: 1.8rem;
+	  line-height: 1.5;
+	}
+
+	.bio-honors {
+	  width: 100%;
+	  padding: 0;
+	}
+
+	.bio-honors li {
+	  font-size: 1.8rem;
+	  line-height: 1.3;
+	}
+
+	.bio-honors img {
+	  width: 100%;
+	}
+
+	.orgs {
+	  flex-direction: column;
+	  padding: 1rem
+	}
+
+	.orgs-icons {
+	  border-right: none;
+		border-bottom: 3px solid #eee;
+	  padding-right: 0;
+	  display: flex;
+	  flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.orgs-icons img {
+	  width: 12rem;
+		height: 100%;
+	  margin: 2rem;
+	}
+
+	.orgs-content {
+	  margin: 2rem 0 0 4rem;
+	}
+
+	.pub {
+		margin: 1rem;
+	}
+
+	.pub-info {
+		flex-direction: column;
+	}
+
+	.pub-date {
+	  width: 100%;
+	}
+
+	.pub-article {
+	  display: none;
+	}
