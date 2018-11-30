@@ -1072,7 +1072,7 @@ footer {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 420px) {
   html {
     font-size: 6.5px
   }
@@ -1085,6 +1085,17 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: center;
+  }
+
+  .grid-container {
+    display: grid;
+    height: 110rem;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    padding: 1rem;
+    padding-bottom: 0;
+    margin: 0;
   }
 
 

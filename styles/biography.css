@@ -268,6 +268,14 @@
 	  margin: 2rem 0 0 4rem;
 	}
 
+  .orgs-content h3 {
+    font-size: 3.5rem;
+  }
+
+  .orgs-content li {
+    font-size: 2.5rem;
+  }
+
 	.pub {
 		margin: 1rem;
 	}
