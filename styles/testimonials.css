@@ -6,16 +6,9 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background: linear-gradient(
-		to right bottom,
-		rgb(55, 123, 185),
-		rgb(3, 51, 94)
-	);
-	background-size: cover;
 	color: white;
 	padding: 3.75rem;
-	padding-top: 11rem;
-
+	padding-top: 3rem;
 }
 
 .testimonials {

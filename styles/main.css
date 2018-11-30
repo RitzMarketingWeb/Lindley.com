@@ -128,8 +128,6 @@ address {
   flex-direction: column;
   position: absolute;
   background: rgba(238, 238, 238, 0.85);
-  border-left: 5px solid #f8f8f8;
-  border-bottom: 5px solid #e8e8e8;
   z-index: 500;
 }
 
@@ -152,8 +150,6 @@ address {
   flex-direction: column;
   position: absolute;
   background: rgba(238, 238, 238, 0.90);
-  border-left: 5px solid #f8f8f8;
-  border-bottom: 5px solid #e8e8e8;
   z-index: 500;
 }
 
@@ -172,7 +168,7 @@ address {
 }
 
 .about-drop {
-  right: 61.6rem;
+  right: 61.9rem;
   top: 100%;
 }
 
@@ -186,8 +182,6 @@ address {
   flex-direction: column;
   position: absolute;
   background: rgba(238, 238, 238, 0.90);
-  border-left: 5px solid #f8f8f8;
-  border-bottom: 5px solid #e8e8e8;
   z-index: 500;
 }
 
@@ -206,7 +200,7 @@ address {
 }
 
 .areas-drop {
-  right: 28.6rem;
+  right: 28.9rem;
   top: 100%;
 }
 
@@ -524,8 +518,7 @@ footer {
   grid-template-columns: 1fr 2fr;
   grid-column-gap: 3.125rem;
   background: #ededed;
-  padding: 5rem;
-  height: 100%;
+  padding: 2.5rem;
 }
 
 .footer-left {
@@ -552,7 +545,7 @@ footer {
   display: flex;
   flex-direction: column;
   text-align: center;
-  color: #2d4990;
+  color: #445bc4;
 }
 
 .footer-right h2 {
