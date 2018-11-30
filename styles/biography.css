@@ -46,6 +46,7 @@
 
 .bio-honors ul {
   list-style: inside;
+  list-style-position: outside;
 }
 
 .bio-honors li {
